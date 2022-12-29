@@ -1,0 +1,57 @@
+body {
+    background-color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38444d;
+
+}
+
+li {
+    float: left;
+    font-family: " Calibri";
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+ul input[type=text] {
+    float: right;
+    padding: 7px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 12px;
+}
+
+.search-form {
+
+    float: right;
+}
+
+.cart {
+    float: right;
+    size: auto;
+}
+
+.column {
+
+}

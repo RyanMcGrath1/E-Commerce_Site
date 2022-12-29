@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<div id="nav-placeholder"></div>
+<script>
+    $(function () {
+         $("#nav-placeholder").load("./navigationbar.html");
+    });
+</script>
+
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../Images/indexImages/bird1.jpg" style="width: 100%; height: 600px">
+        <div class="text"><strong><em>Adoption</em></strong></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../Images/indexImages/bird2.jpg" style="width: 100%; height: 600px">
+        <div class="text"><strong><em></em></strong></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="../Images/indexImages/bird3.jpg" style="width:100%; height: 600px">
+        <div class="text"><strong><em>Check out our selection of toys perfect for any bird</em></strong></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="display">
+    <div class="row">
+        <div class="column">
+            <a href="adopt.php">
+                <img src="../Images/indexImages/home_bird.webp" alt="Birb" style="width:100%; height: 450px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="food.html">
+                <img src="../Images/indexImages/bird_food2.jpg" alt="Food" style="width:100%; height: 450px">
+            </a>
+        </div>
+        <div class="column">
+            <a href="toys.html">
+                <img src="../Images/indexImages/home_cage.webp" alt="Cages" style="width:100%; height: 450px">
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <p class="titleCards">Birds</p>
+        </div>
+        <div class="column">
+            <p class="titleCards">Food</p>
+        </div>
+        <div class="column">
+            <p class="titleCards">Homes</p>
+        </div>
+    </div>
+</div>
+
+<script src="../JavaScript/SlideShow.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
