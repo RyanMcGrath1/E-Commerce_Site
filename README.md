@@ -1,12 +1,36 @@
-# E-Commerce Site
+# Bird E-Commerce Site
 
-The entry point for this project can be found at `src/index.php`. This project was originally hosted by Montclair State University on CPanel. 
-The link to the website is no longer active however, all files to replicate this project can be found within this repository.
+This site is built using MySQL, JavaScript and PHP and offers an easy and convenient way to buy and sell birds and bird products. Users must create an account before accessing the site. After signing in you will be brought to either the customer portal or the manager portal based off the type of account created.
 
-The SQL dump for this projects database can be found at `mcgratr1_Test.sql`
+## Customer Portal
 
+Customers have access to a wide range of birds and bird products, including cage accessories, bird feed, and toys. Customers can traverse the website using the navigation bar located at the top. Shopping carts can be found at the bottom of each page and will show the contents of the cart in addition to the total cost in real time.
 
-All users must create an account prior to using the website, failure to do so was an automatic reduction in overall grade for the original submission. User accounts are broken down to either customer or employee.
+## Manager Portal
 
-This project is intended to act as an E-Commerce and Animal Adoption site in which customers could purchase products and adopt parrots through the same website.
-Employees would then be able to access inventory for all products listed on the website and perform an inventory resupply.
+If you create a manager account, you'll have access to a separate portal where you can view inventory. You'll be able to view detailed information about your products, including stock levels and pricing. Due to medical reasons at the time of submission much of the core functionality for this portal was not completed. The intent was to give the manager a single location to view and fill supply orders for the site.
+
+## Features
+
+- Extensive selection of birds and bird products
+- Online checkout
+- Customer and manager portals
+- Inventory management tools for managers
+- Easy ordering and fulfillment for managers
+
+## System Requirements
+
+- A web server running PHP
+- A MySQL database
+- A web browser with JavaScript enabled
+
+## Installation
+
+To install Bird Emporium, simply follow these steps:
+
+1. Download the source code from our repository
+2. Upload the files to your web server
+3. Create a new MySQL database and import the provided SQL file
+4. Edit the `config.php` file to reflect your server and database settings
+5. Access the site through your web browser and log in as a manager to start using the site
+
