@@ -47,4 +47,5 @@ The entry point for this project is `E-Commerce_Site/src/index.php`
 
 ![Landing Page](example/landing.PNG)
 ![registration](example/registration.PNG)
+![homepage](example/homepage.PNG)
 
