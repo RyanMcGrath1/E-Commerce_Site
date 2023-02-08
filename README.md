@@ -18,11 +18,11 @@ If you create a manager account, you'll have access to a separate portal where y
 - Inventory management tools for managers
 - Easy ordering and fulfillment for managers
 
-## System Requirements
+- ## Requirements
 
-- A web server running PHP
-- A MySQL database
-- A web browser with JavaScript enabled
+- PHP >= 7.3
+- MySQL >= 5.7
+- JavaScript
 
 ## Installation
 
