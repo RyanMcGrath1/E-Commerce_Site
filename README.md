@@ -26,11 +26,24 @@ If you create a manager account, you'll have access to a separate portal where y
 
 ## Installation
 
-To install Bird Emporium, simply follow these steps:
+To install, simply follow these steps:
 
-1. Download the source code from our repository
+1. Clone the repository to your local machine using the following command:
+
+```sh 
+$ git clone https://github.com/RyanMcGrath1/E-Commerce_Site.git
+
+```
 2. Upload the files to your web server
 3. Create a new MySQL database and import the provided SQL file
 4. Edit the `config.php` file to reflect your server and database settings
 5. Access the site through your web browser and log in as a manager to start using the site
+
+## Usage
+
+The entry point for this project is `E-Commerce_Site/src/index.php`
+
+## Images
+
+![Landing Page](example/landing.PNG)
 
